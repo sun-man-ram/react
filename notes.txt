@@ -40,3 +40,11 @@ nested components component inside componsnet
 
 create a component 
 
+creating nested components
+rfce using react extension
+arrow function
+in the nested components i just rendered a componenet 
+and rendered it in main component as welel
+
+
+the content which need sto be in between div only 
