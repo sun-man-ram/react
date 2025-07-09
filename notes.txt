@@ -1,0 +1,42 @@
+react is basically two important things 
+
+one react virtual dom
+two react compionent
+
+first step to install
+npx create-react-app my_app
+
+apart from 
+app.css
+app.js
+index.css
+index.js
+
+delete everything
+remove app.js header section
+remove entire index.css index.js
+in app.js 17th statement and 5 th import statement 
+
+
+in between the div elements in the app.js please put hello so in the browser this will be started 
+npm start is the command
+
+
+componenets
+what are components 
+group of elements 
+building blocks
+
+types of components
+functional (latest )
+class componenets
+
+
+how to create components
+file with code is a componenets :)
+
+nested components component inside componsnet
+
+
+create a component 
+
