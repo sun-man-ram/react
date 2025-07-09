@@ -1,1 +1,1 @@
-see different and commits  to learn react 
+see different commits  to learn react 
