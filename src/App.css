@@ -14,3 +14,9 @@
   line-height: 1.6;
   font-family: Arial, sans-serif;
 }
+.office-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* keeps image neat */
+  border-radius: 10px; /* optional - makes corners rounded */
+}
