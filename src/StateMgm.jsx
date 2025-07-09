@@ -2,14 +2,24 @@ import React from 'react'
 // use state
 import { useState } from 'react'
 const StateMgm = () => {
-    const [city,setCity]=useState("HYderabad")
+    const [city,setCity]=useState("HYderabad");
+
     console.log(city)
     // setCity="Delhi" wrong approach
-    setCity("Delhi");
+    if(city=="Goa"){
+        setCity("Banglore");
+    }
+    else{
+        setCity("delhi");
+    }
+    console.log(city);
+    // setCity("Delhi");
     console.log(city);
   return (
     <div>
-      StateMgm
+      <h1>
+        I live in {city}
+      </h1>
     </div>
   )
 }
