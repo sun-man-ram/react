@@ -65,3 +65,8 @@ second component//child componenet can only read
 
 rfce is used for function 
 rafce is used for arrow function
+
+
+
+prop destructuring is simplying large datas and passing them 
+
