@@ -1,14 +1,16 @@
 import React from 'react'
+import './App.css';
 
 let a="Apple"
 let b ="Banana"
 function App() {
   return (
-    <div>
-      <h1>
-        i am {a},{b}
-      </h1>
+    <div className="container">
+       <p className='para'>
+    This is paragraph
+   </p>
     </div>
+
   )
 }
 
