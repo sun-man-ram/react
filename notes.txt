@@ -70,3 +70,10 @@ rafce is used for arrow function
 
 prop destructuring is simplying large datas and passing them 
 
+
+useState Hook
+
+In React, useState is needed because it tells React:
+“Hey, I changed something — please update the UI!”
+
+

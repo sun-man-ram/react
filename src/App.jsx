@@ -4,6 +4,7 @@ import FirstComp from './propsContainer/FirstComp';
 import SecondComp from './propsContainer/SecondComp';
 import ThirdComp from './propsContainer/ThirdComp';
 import FourtComp from './propsContainer/FourtComp';
+import StateMgm from './StateMgm';
 // import officeImage from './office.png';
 // import office from './public/office.png';
 let a="Apple"
@@ -25,10 +26,8 @@ const myCar={
 function App() {
   return (
     <div>
-     <FirstComp name='Mani'/>
-       <SecondComp name={myCar}/>
-         <ThirdComp name='reddy'/>
-           <FourtComp name='Tony'/>
+     
+     <StateMgm/>
       </div>
 
   )
