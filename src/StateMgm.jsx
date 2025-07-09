@@ -1,17 +1,19 @@
 import React from 'react'
 // use state
-import { useState } from 'react'
+import { useState,useEffect} from 'react'
 const StateMgm = () => {
     const [city,setCity]=useState("HYderabad");
-
-    console.log(city)
-    // setCity="Delhi" wrong approach
-    if(city=="Goa"){
+    useEffect(()=>{
+         if(city=="Goa"){
         setCity("Banglore");
     }
     else{
         setCity("delhi");
     }
+    },[city])
+    console.log(city)
+    // setCity="Delhi" wrong approach
+
     console.log(city);
     // setCity("Delhi");
     console.log(city);

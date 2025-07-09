@@ -76,4 +76,11 @@ useState Hook
 In React, useState is needed because it tells React:
 “Hey, I changed something — please update the UI!”
 
+usestate hook is fine with if but else it goes infinte rendering 
 
+hence would be solved by useEffect
+
+useEffect(()=>{})
+ useEffect(()=>{
+    
+    },[])
