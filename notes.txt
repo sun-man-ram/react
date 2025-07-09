@@ -48,3 +48,8 @@ and rendered it in main component as welel
 
 
 the content which need sto be in between div only 
+
+in javascript xml file jsx file html can be written in javscript file
+html file ni javascript lo rayadaniki use chesede javascript cml
+
+
