@@ -56,3 +56,12 @@ html file ni javascript lo rayadaniki use chesede javascript cml
 npm run start is the command :lol
 
 so now its prop time 
+props are used to communicate data between componenets
+parent is the one which send data and which receives is called child
+and its always one way 
+second component//child componenet can only read 
+
+
+
+rfce is used for function 
+rafce is used for arrow function
