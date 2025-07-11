@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SecondComp = (props) => {
-    const {model,year,dealer,color}=props.name
+    const {model,year,dealer,color}=<props className="name"></props>
 
   return (
     <div>

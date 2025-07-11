@@ -84,3 +84,7 @@ useEffect(()=>{})
  useEffect(()=>{
     
     },[])
+
+
+ternary operator
+
