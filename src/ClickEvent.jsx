@@ -8,6 +8,9 @@ const ClickEvent = () => {
     const decrement=()=>{
         setNumber(number-1)
     }
+    const reset=()=>{
+        setNumber(0);
+    }
   return (
     <div>
         <h1>
@@ -19,6 +22,9 @@ const ClickEvent = () => {
       </button>
       <button onClick={decrement}>
         decrement
+      </button>
+      <button onClick={reset}>
+       reset 
       </button>
     </div>
   )
