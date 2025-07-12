@@ -1,6 +1,8 @@
 import React from 'react'
-import Resize from './Resize'
+// import Resize from './Resize'
 import ClickEvent from './ClickEvent';
+import FormExample from './FormExample';
+
 import "./App.css";
 
 const App = () => {
@@ -8,9 +10,8 @@ const App = () => {
     <div>
       <h1>
         Welcome to react 
-      {/* <ClickEvent />
-       */}
-       <Resize / >
+       
+       <FormExample />
       </h1>
      
     </div>
